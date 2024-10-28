@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;   
+}
+body{
+  background-image: url(background.jpg);
+  width:100%;
+  margin:0;
+  padding:0;
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+}
+.box {
+  background-color: rgba(0, 0, 0, 0.6);;
+  padding: 5%;
+  border-radius: 20px;
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 3%;
+}
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px; 
+  width: 20%;
+  height: auto;    
+}
+h3 {
+  text-align: center;
+  color: rgb(50, 200, 50) ;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.button {
+  background-color: rgb(50, 200, 50);
+  text-align: center;
+  padding: 1%;
+}  
+h4 {
+  display: inline;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.informazioni {
+  color: rgb(255, 255, 255);
+  margin-top: 2%;
+  padding: 0%;
+}
+.strada:before {
+  content: "\21A6";
+}
+div.barra {
+  border-radius: 10px;
+  padding: 16px;
+  height: 8%;
+  margin-top: 0.5%;
+}
+.prima {
+  background: #e5b30e;
+  width: 40%;
+}
+.seconda{
+  background: #2aea0c;
+  width: 70%;
+}
+.terza {
+  background: #c52424;
+  width: 20%;
+}
